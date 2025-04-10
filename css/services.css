@@ -61,3 +61,31 @@ section#services h2{
 .service-description-reverse p{
     text-align: justify;
 }
+
+@media screen and (max-width: 768px) {
+    .services-container{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            'img'
+            'txt';
+    }
+    .service-image{
+        grid-area: img;
+        max-width: 100%;
+        object-fit: cover;
+    }
+    .service-description{
+        padding: 0 20px ;
+    }
+    .service-description-reverse{
+        padding: 0 20px ;
+    }
+    
+    .service-container-reverse{
+        grid-template-columns: 1fr;    
+        grid-template-areas: 
+            'img'
+            'txt';
+    }
+    
+}
