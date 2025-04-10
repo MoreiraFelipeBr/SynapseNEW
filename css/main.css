@@ -1,0 +1,45 @@
+.main-container {  
+   /* border: 1px solid white;
+     max-width: 1200px;    */
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    padding:  20px;
+    background-image: url('../img/banner1920x1080.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.main-content {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.botao {
+    text-decoration: none;
+    color: #0B5CFF;
+    /* border: 2px solid #0B5CFF; */
+    border-radius: 25px;
+    padding: 5px 30px;
+    align-self: center;
+    
+}
+.botao-main{
+    grid-area: botao-main;
+
+}
+
+.botao:hover {
+    background: #d2e1ff;
+}
+
+.botao.destaque {
+    background: var(--foreground);
+    color: var(--background);
+}
+
+.botao.destaque:hover {
+    background: #2d73ff;
+}

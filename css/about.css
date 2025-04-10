@@ -1,0 +1,26 @@
+#about h2{
+    color: var(--foreground);
+    text-align: center;
+    margin: 10px auto;
+    max-width: 1600px;
+    padding:  20px;
+    
+    
+}
+
+.about-container {
+    margin: 20px auto;
+    
+    max-width: 1200px;   
+    padding: 10px;
+    
+}
+
+.about-container p {
+    padding: 10px;
+    font-size: 1rem;
+    text-align:justify;
+    color: var(--foreground);
+    max-width: 800px;
+    margin: 0 auto;
+}
