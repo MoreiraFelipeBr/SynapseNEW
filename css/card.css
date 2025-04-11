@@ -56,3 +56,13 @@ section#cards{
     object-fit: cover
     
 }
+
+@media (max-width: 500px) {
+    #cards h2{
+    text-align: justify;
+    margin: 10px auto;
+    padding: 0px;
+    font-size: 1.2rem;
+    }
+    
+}

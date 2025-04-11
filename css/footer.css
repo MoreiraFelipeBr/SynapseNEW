@@ -22,7 +22,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin:  0;
+    margin:  2px auto;
     padding: 0;
     height: 25px;
     
@@ -35,3 +35,8 @@ footer{
     color: whitesmoke;
     text-decoration: none;
   }
+
+  @media (max-width: 500px) {
+
+  }
+

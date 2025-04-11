@@ -13,25 +13,27 @@ header {
     border: 1px solid white;   
 }
 nav {
-    flex-grow: 1;
-    margin-left: auto;
+    
     
 }
 
 nav ul {
     display: flex;
     list-style: none;
-    /* justify-content: space-between;
-    align-items: center;  */
+    gap: 2rem; /
+    margin: 0 ; 
+    padding: 0
 }
 
-ul a:link, 
-a:visited {
+nav a {
     padding: 10px;
     text-decoration: none;
     color: var(--foreground);
     font-size: 1.2rem;
+    transition: color 0.3s ease; /* suaviza a mudança de cor no hover */
 }
+
+
 
 ul a:hover {
     color: #0B5CFF;
