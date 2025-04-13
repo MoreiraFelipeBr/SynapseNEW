@@ -2,14 +2,15 @@ header {
     
 }
 
-.header-container {
+.logo {
     display: flex;
-    
+    align-items: center;
+}
+
+.header-container {
+    display: flex;    
     justify-content: space-between;
-    align-items: center; 
-    max-width: 1200px; 
-    width: 100%;
-    margin: 0 auto; 
+    max-width: 1200px;
     
 }
 nav {
@@ -21,8 +22,6 @@ nav ul {
     display: flex;
     list-style: none;
     gap: 2rem; /
-    margin: 0 ; 
-    padding: 0
 }
 
 nav a {
@@ -39,3 +38,49 @@ ul a:hover {
     color: #0B5CFF;
 }
 
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+@media screen and (max-width: 730px) {
+    .header-container {
+        padding: 1.5rem 4rem;
+        max-width: 730px; 
+    }
+
+    .nav-bar {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+
+    }
+
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+
+    }
+
+    .open {
+        display: block;
+    }
+}

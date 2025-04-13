@@ -18,24 +18,38 @@
 <body>
     <header>
         <div class="header-container">
-            <a href="#">
+            <div><a href="#">
                 <img src="" alt="Logo Synapse AIOT" class="logo">
-            </a>
-
-            <nav>
+                </a>
+            </div>
+            <nav class="nav-bar" >
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Solutions</a></li>
+                    <li class="nav-item"><a href="#home">Home</a></li>
+                    <li class="nav-item"><a href="#about">About</a></li>
+                    <li class="nav-item"><a href="#services">Solutions</a></li>
 
                 </ul>
+
+                
             </nav>
 
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="img/menu_white_36dp.svg" alt=""></button>
+            </div>
 
+            
         </div>
+        <nav class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#home">Home</a></li>
+                <li class="nav-item"><a href="#about">About</a></li>
+                <li class="nav-item"><a href="#services">Solutions</a></li>
+
+            </ul>
+        </nav>
     </header>
 
-    <section class="main-container">
+    <section id="home" class="main-container">
         <div class="main-content" data-scroll-effect >
             <h1>Data-Driven Decisions and Transformational Growth for Your Business</h1>
             <p>Digital Twin revolutionizes industry by providing an accurate virtual representation of assets and
@@ -215,6 +229,7 @@
 
     </footer>
     <script type="module" src="js/main.js"></script>
+    <script src="/js/menuMobile.js"></script>
 </body>
 
 </html>
