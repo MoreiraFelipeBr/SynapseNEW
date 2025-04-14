@@ -19,6 +19,38 @@
 
 
 
+
+@media (max-width: 900px) {
+    .main-container {
+        height: 50vh;
+        background-position: right center; 
+        background-image: url('../img/banner800x600.webp');
+        
+        background-position: center;
+    }
+    
+    .main-content {
+        width: 100%;
+        padding: 20px;
+    }
+    
+    #home h1 {
+        font-size: 1.8rem; 
+    }
+    
+    p {
+        font-size: 0.9rem; 
+    }
+    
+    .botao {
+        margin-top: 20px;
+        padding: 8px 25px; 
+        font-size: 0.9rem;
+    }
+}
+
+
+
 @media (max-width: 500px) {
     .main-container {
         height: 50vh;

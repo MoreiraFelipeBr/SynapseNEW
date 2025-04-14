@@ -1,4 +1,7 @@
 header {
+    max-width: 1200px;   
+    margin: 0 auto;
+    
     
 }
 
@@ -21,7 +24,7 @@ nav {
 nav ul {
     display: flex;
     list-style: none;
-    gap: 2rem; /
+    gap: 2rem; 
 }
 
 nav a {
@@ -29,7 +32,7 @@ nav a {
     text-decoration: none;
     color: var(--foreground);
     font-size: 1.2rem;
-    transition: color 0.3s ease; /* suaviza a mudança de cor no hover */
+    transition: color 0.3s ease; 
 }
 
 
