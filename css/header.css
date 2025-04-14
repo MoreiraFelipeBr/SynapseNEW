@@ -13,6 +13,7 @@ header {
 .header-container {
     display: flex;    
     justify-content: space-between;
+    align-items: center;
     max-width: 1200px;
     
 }
@@ -51,7 +52,7 @@ ul a:hover {
 
 @media screen and (max-width: 730px) {
     .header-container {
-        padding: 1.5rem 4rem;
+        /* padding: 1.5rem 4rem; */
         max-width: 730px; 
     }
 

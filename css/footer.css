@@ -32,11 +32,20 @@ footer{
   .footer-bottom p,  .footer-bottom a  {
     margin: auto;
     font-size: 0.8em;
-    color: whitesmoke;
+    color: rgb(105, 105, 105);
     text-decoration: none;
+    font-family: 'Roboto', sans-serif;
   }
 
   @media (max-width: 500px) {
+
+    .footer-bottom p,  .footer-bottom a  {
+      
+      font-size: 0.6em;
+      
+      
+      
+    }
 
   }
 
