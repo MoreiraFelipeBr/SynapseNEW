@@ -2,7 +2,7 @@
    /* border: 1px solid white;
      max-width: 1200px;    */
     height: 100vh;
-    margin: 0 auto;
+    margin: 30px auto 0 auto;
     display: flex;
     padding:  20px;
     background-image: url('../img/banner1920x1080.webp');
