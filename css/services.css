@@ -20,6 +20,12 @@ section#services h2{
     gap: 20px; 
     padding: 0px;
     align-items: center
+    max-width: 1200px;
+    
+    width: 100%;
+    overflow: hidden; /* Adicionado */
+    
+    box-sizing: border-box;
 }
 
 .service-image{
@@ -49,6 +55,12 @@ section#services h2{
     gap: 20px; 
     padding: 0px;
     align-items: center
+    max-width: 1200px;
+    
+    width: 100%;
+    overflow: hidden; /* Adicionado */
+    
+    box-sizing: border-box;
 }
 
 .service-description-reverse{

@@ -13,7 +13,7 @@ header {
     border: 1px solid white;
      */
 
-    position: fixed;
+    /* position: fixed;
     top: 0;
     left: 0;
     width: 100%; 
@@ -22,10 +22,17 @@ header {
     padding: 5px;
     height: 70px;
     margin: 0;
-    box-sizing: border-box; 
-    
+    box-sizing: border-box;  */
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+   
+    width: 100%;
+    position: relative;
 
 }
+
 
 .header-container {
     /* display: flex;    
@@ -42,6 +49,10 @@ header {
     width: 100%;
     padding: 0 15px; 
     box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    
+    
     
 }
 
