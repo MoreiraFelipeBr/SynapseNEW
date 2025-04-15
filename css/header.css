@@ -1,3 +1,7 @@
+/* * {
+    outline: 1px solid red !important;
+} */
+
 header {
     /* position: fixed; 
     top: 0; 
@@ -12,21 +16,32 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    right: 0;
+    width: 100%; 
     z-index: 10;
     background-color: black;
-    padding: 5px; 
+    padding: 5px;
     height: 30px;
+    margin: 0;
+    box-sizing: border-box; 
+    
 
 }
 
 .header-container {
-    display: flex;    
+    /* display: flex;    
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%; */
+    display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
     width: 100%;
+    padding: 0 15px; 
+    box-sizing: border-box;
     
 }
 
@@ -76,13 +91,15 @@ ul a:hover {
 
 @media screen and (max-width: 730px) {
     header {
+        
         height: 50px;
-        align-content: center;
+        
     }
     
     .header-container {
         /* padding: 1.5rem 4rem; */
-        width: 90%;
+        width: 100%; 
+        padding: 0 20px;
         
         
     }

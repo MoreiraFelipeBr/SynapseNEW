@@ -72,7 +72,7 @@ section#services h2{
     }
     .service-image{
         grid-area: img;
-        max-width: 100%;
+        width: 100%;
         object-fit: cover;
     }
     .service-description{
