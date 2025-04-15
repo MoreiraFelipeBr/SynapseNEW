@@ -20,7 +20,7 @@ header {
     z-index: 10;
     background-color: black;
     padding: 5px;
-    height: 30px;
+    height: 70px;
     margin: 0;
     box-sizing: border-box; 
     
@@ -48,6 +48,7 @@ header {
 .logo {
     display: flex;
     align-items: center;
+    height: 70px;
 }
 
 nav {
@@ -92,7 +93,16 @@ ul a:hover {
 @media screen and (max-width: 730px) {
     header {
         
-        height: 50px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%; 
+        z-index: 10;
+        background-color: black;
+        padding: 5px;
+        height: 70px;
+        margin: 0;
+        box-sizing: border-box; 
         
     }
     
@@ -100,6 +110,7 @@ ul a:hover {
         /* padding: 1.5rem 4rem; */
         width: 100%; 
         padding: 0 20px;
+        margin: 0 ;
         
         
     }
@@ -138,7 +149,7 @@ ul a:hover {
     }
 }
 
-
+/* 
 @media screen and (max-width: 500px) {
        
     .header-container {
@@ -146,4 +157,4 @@ ul a:hover {
         align-items: center;
     }
 
-}
+} */
