@@ -1,7 +1,29 @@
-
+/* * {
+    outline: 1px solid red !important;
+} */
 
 header {
-    
+    /* position: fixed; 
+    top: 0; 
+    left: 0;
+    z-index: 10;
+    display: flex;
+    max-width: 1200px;   
+    margin: 0 auto;
+    border: 1px solid white;
+     */
+
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    z-index: 10;
+    background-color: black;
+    padding: 5px;
+    height: 70px;
+    margin: 0;
+    box-sizing: border-box;  */
+    background-color: black;
     display: flexbox;
     justify-content: center;
     align-items: center;
@@ -9,22 +31,30 @@ header {
    
     width: 100%;
     position: relative;
+    z-index: 19;
 
 }
 
 
 .header-container {
-     display: flex;
+    /* display: flex;    
     justify-content: space-between;
     align-items: center;
     max-width: 1200px;
+    margin: 0 auto;
+    width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
     margin: 0 auto;
     width: 100%;
     padding: 0 15px; 
     box-sizing: border-box;
     position: fixed;
     top: 0;
-    
+    background-color: black;
+    z-index: 20;
     
     
 }
