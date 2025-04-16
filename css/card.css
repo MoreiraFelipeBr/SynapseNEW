@@ -1,75 +1,79 @@
-section#cards{
+section#cards {
     padding: 20px;
     margin: 20px auto;
-    
+
 }
 
-#cards h2{
+#cards h2 {
     color: var(--foreground);
     text-align: center;
     margin: 20px auto;
     max-width: 1600px;
     padding: 0 20px;
-    
+
 }
-.cards-container {  
-    max-width: 1200px;   
+
+.cards-container {
+    max-width: 1200px;
     margin: 20px auto;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));    
-    gap: 20px; 
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
     padding: 10px;
-    
+
     justify-items: center;
-    
+
 }
 
 .card {
     background-color: var(--foreground);
-    border-radius: 20px;  
+    border-radius: 20px;
     color: var(--background);
     min-width: 300px;
     max-width: 500px;
-    overflow: hidden; 
+    overflow: hidden;
     display: flex;
-    flex-direction: column; 
-    
+    flex-direction: column;
+
 }
-.card>h3{
+
+.card>h3 {
     color: var(--background);
     padding: 5px;
     margin: 0;
     font-size: 1.2rem;
     text-align: center;
 }
-.card>p{
+
+.card>p {
     padding: 10px;
     font-size: 1rem;
-    text-align:justify;
+    text-align: justify;
     color: var(--background);
 }
 
-.card-image{
+.card-image {
     max-width: 100%;
     max-height: 50%;
     display: block;
     object-fit: cover
-    
 }
+
 @media (max-width: 900px) {
-    #cards h2{
+    #cards h2 {
         text-align: justify;
         margin: 10px auto;
         padding: 0px;
         font-size: 1.2rem;
-        }
-}
-@media (max-width: 500px) {
-    #cards h2{
-    text-align: justify;
-    margin: 10px auto;
-    padding: 0px;
-    font-size: 1.2rem;
     }
-    
+}
+
+@media (max-width: 500px) {
+    #cards h2 {
+        text-align: justify;
+        margin: 10px auto;
+        padding: 0px;
+        font-size: 1.2rem;
+    }
+
 }

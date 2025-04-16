@@ -1,10 +1,10 @@
-.main-container {  
-   /* border: 1px solid white;
+.main-container {
+    /* border: 1px solid white;
      max-width: 1200px;    */
     height: 100vh;
     margin: 70px auto 0 auto;
     display: flex;
-    padding:  20px;
+    padding: 20px;
     background-image: url('../img/banner1920x1080.webp');
     background-size: cover;
     background-position: center;
@@ -20,7 +20,7 @@
 .main-content p {
     font-size: 1.2rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    
+
 }
 
 .main-content h1 {
@@ -33,36 +33,36 @@
 @media (max-width: 1200px) {
     .main-content {
         width: 65%;
-        
+
     }
 }
 
 @media (max-width: 900px) {
     .main-container {
         height: 70vh;
-        background-position: right center; 
+        background-position: right center;
         background-image: url('../img/banner1200x675.webp');
-        
+
         background-position: center;
     }
-    
+
     .main-content {
         width: 100%;
         padding: 20px;
     }
-    
+
     .main-content h1 {
-        font-size: 2rem; 
+        font-size: 2rem;
     }
-    
+
     .main-content p {
-        font-size: 1.1rem; 
-        
+        font-size: 1.1rem;
+
     }
-    
+
     .botao {
         margin-top: 20px;
-        padding: 8px 25px; 
+        padding: 8px 25px;
         font-size: 0.9rem;
     }
 }
@@ -72,29 +72,29 @@
 @media (max-width: 500px) {
     .main-container {
         height: 75vh;
-        background-position: right center; 
+        background-position: right center;
         background-image: url('../img/banner800x600.webp');
-        
+
         background-position: center;
     }
-    
+
     .main-content {
         width: 100%;
         padding: 10px;
     }
-    
+
     .main-content h1 {
-        font-size: 1.rem; 
+        font-size: 1.rem;
     }
-    
+
     .main-content p {
-        font-size: 1rem; 
+        font-size: 1rem;
         text-align: justify;
     }
-    
+
     .main-content .botao {
         margin-top: 20px;
-        padding: 8px 25px; 
+        padding: 8px 25px;
         font-size: 0.9rem;
     }
 }
@@ -109,9 +109,10 @@
     border-radius: 25px;
     padding: 5px 30px;
     align-self: center;
-    
+
 }
-.botao-main{
+
+.botao-main {
     grid-area: botao-main;
 
 }

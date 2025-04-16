@@ -28,7 +28,7 @@ header {
     justify-content: center;
     align-items: center;
     padding: 0;
-   
+
     width: 100%;
     position: relative;
     z-index: 19;
@@ -46,17 +46,17 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
     margin: 0 auto;
     width: 100%;
-    padding: 0 15px; 
+    padding: 0 15px;
     box-sizing: border-box;
     position: fixed;
     top: 0;
     background-color: black;
     z-index: 20;
-    
-    
+
+
 }
 
 .logo {
@@ -65,17 +65,14 @@ header {
     height: 70px;
 }
 
-nav {
-    
-    
-}
+nav {}
 
 
 
 nav ul {
     display: flex;
     list-style: none;
-    gap: 2rem; 
+    gap: 2rem;
 }
 
 nav a {
@@ -83,7 +80,7 @@ nav a {
     text-decoration: none;
     color: var(--foreground);
     font-size: 1.2rem;
-    transition: color 0.3s ease; 
+    transition: color 0.3s ease;
 }
 
 
@@ -98,35 +95,35 @@ ul a:hover {
 
 .mobile-menu {
     display: none;
-    background-color: rgba(0,0,0, 0.9);
+    background-color: rgba(0, 0, 0, 0.9);
     width: 75%;
     margin: 0 auto;
-    border-radius:  0 0 25px 25px;
+    border-radius: 0 0 25px 25px;
 }
 
 @media screen and (max-width: 730px) {
     header {
-        
+
         position: fixed;
         top: 0;
         left: 0;
-        width: 100%; 
+        width: 100%;
         z-index: 10;
         background-color: black;
         padding: 5px;
         height: 70px;
         margin: 0;
-        box-sizing: border-box; 
-        
+        box-sizing: border-box;
+
     }
-    
+
     .header-container {
-        
-        width: 100%; 
+
+        width: 100%;
         padding: 0 20px;
-        margin: 0 ;
-        
-        
+        margin: 0;
+
+
     }
 
 
@@ -146,22 +143,23 @@ ul a:hover {
 
     .mobile-menu {
         position: fixed;
-        top: 70px; /* altura do header */
-        right:  0;
+        top: 70px;
+        /* altura do header */
+        right: 0;
         width: 90%;
         z-index: 1000;
         transition: all 0.3s ease;
         transform: translateY(-100%);
         opacity: 0;
     }
-    
+
     .mobile-menu.open {
         transform: translateY(0);
         opacity: 1;
     }
-    
+
     .mobile-menu ul {
-        background-color: rgba(0,0,0, 0.8);
+        background-color: rgba(0, 0, 0, 0.8);
         border-radius: 0 0 25px 25px;
         padding: 20px;
         display: flex;
@@ -170,7 +168,7 @@ ul a:hover {
         padding-bottom: 1rem;
     }
 
-    
+
 
     .mobile-menu .nav-item {
         display: block;
@@ -182,4 +180,3 @@ ul a:hover {
         display: block;
     }
 }
-

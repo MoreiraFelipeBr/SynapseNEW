@@ -1,28 +1,28 @@
-section#about{
+section#about {
     background-color: var(--foreground);
     margin: 20px auto;
     padding: 20px 0;
 }
 
-#about h2{
+#about h2 {
     color: var(--background);
     text-align: center;
     margin: auto;
     max-width: 1600px;
-    
+
 }
 
 .about-container {
     margin: 20px auto;
-    max-width: 1200px;   
-    
-    
+    max-width: 1200px;
+
+
 }
 
 .about-container p {
     padding: 10px;
     font-size: 1rem;
-    text-align:justify;
+    text-align: justify;
     color: var(--background);
     max-width: 800px;
     margin: 0 auto;
