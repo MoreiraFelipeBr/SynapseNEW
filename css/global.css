@@ -1,6 +1,13 @@
 :root {
-    --background: rgb(0, 11, 20);
+    /* --background: rgb(0, 11, 20); */
+    --background: #081528;
     --foreground: #ffffff;
+
+    --azul: #081528;
+    --azulclaro: #a4dbe0;
+    
+    --cyan: #6bcbdc;
+    --purple: #b44d9d;
 
 
 }
